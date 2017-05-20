@@ -1,0 +1,404 @@
+/* MENU */
+.navbar-collapse ul {
+    list-style: none;
+}
+
+.navbar-collapse ul li {
+    float: left;
+    padding: 0 16px;
+    border-right: 1px dotted #fff;
+    position: relative;
+}
+
+.navbar-collapse ul li:last-child {
+    border-right: none;
+}
+
+.navbar-collapse ul li a {
+    font-size: 15px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-collapse ul li a:hover, .navbar-collapse ul li a.ativo {
+    color: #fddf28;
+}
+
+.navbar-collapse ul li a.menu-oferta {
+    font-size: 14px;
+    background-color: #fddf28;
+    padding: 5px 10px;
+}
+
+.navbar-collapse ul li a.menu-oferta:hover {
+    color: #FFF;
+}
+
+.menu-item {
+    position: relative;
+    z-index: 999;
+}
+
+.menu-item.ativo:before, .menu-item:hover:before {
+    content: "";
+    display: block;
+    background: url("img/seta-menu.png") no-repeat;
+    width: 18px;
+    height: 9px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -9px;
+    bottom: -15px;
+}
+
+.topo-mobile {
+    border-top: 1px dotted #000;
+}
+
+/* Submenu */
+.sub-menu {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 480px;
+    padding-top: 35px;
+}
+
+.menu-item-esq .sub-menu {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.sub-menu .interno {
+    background-color: #F7F7F7;
+    position: relative;
+    border-top: #888 2px solid;
+    padding: 20px 10px;
+}
+
+.sub-menu h1 {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.sub-menu h1 a {
+    color: #202020 !important;
+    font-size: 14px !important;
+}
+
+.sub-menu h1 a:hover {
+    color: #019388;
+}
+
+.sub-menu ul {
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.sub-menu ul li {
+    border: none;
+    padding: 3px 0;
+    margin: 0;
+    float: none !important;
+}
+
+.sub-menu ul li a {
+    color: #202020;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/* Submenu do Minha conta */
+.sub-menu-conta label, .sub-menu-conta .textoEsqueciSenha {
+    color: #000;
+}
+
+.sub-menu-conta {
+    position: absolute;
+    display: none;
+    top: 28px;
+    padding-top: 12px;
+    right: 0;
+    width: 250px;
+    z-index: 2000;
+}
+
+.sub-menu-conta .interno {
+    background-color: #F7F7F7;
+    padding: 10px;
+}
+
+.sub-menu-conta ul {
+    padding: 0;
+    margin: 0 0 5px 0;
+    list-style: none;
+}
+
+.sub-menu-conta ul li {
+    border: none;
+    padding: 3px 0;
+    margin: 0;
+    float: none;
+}
+
+.sub-menu-conta ul li a {
+    color: #202020;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.sub-menu-conta ul li a:hover {
+    color: #019388;
+}
+
+/*  DIVERSOS */
+.ico-telefone {
+    background: url(img/ico-telefone.png) left center no-repeat;
+    background-size: 20px;
+    padding: 8px 15px 8px 25px;
+}
+
+.dotted-right {
+    border-right: dotted 1px #000000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bord-all {
+    border: 2px solid #DDD;
+}
+
+/* CONTENT MARGIN */
+.mar-no {
+    margin: 0 !important;
+}
+
+.mar-all {
+    margin: 15px;
+}
+
+.mar-all-sm {
+    margin: 7px;
+}
+
+.mar-top {
+    margin-top: 15px;
+}
+
+.mar-top-sm {
+    margin-top: 7px;
+}
+
+.mar-top-xs {
+    margin-top: 3px;
+}
+
+.mar-btm {
+    margin-bottom: 15px;
+}
+
+.mar-btm-xs {
+    margin-bottom: 3px;
+}
+
+.mar-lft {
+    margin-left: 15px;
+}
+
+.mar-lft-sm {
+    margin-left: 7px;
+}
+
+.mar-rgt {
+    margin-right: 15px;
+}
+
+.mar-rgt-sm {
+    margin-right: 7px;
+}
+
+.mar-hor {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mar-ver {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* CONTENT PADDING */
+.pad-no {
+    padding: 0;
+}
+
+.pad-no-imp {
+    padding: 0 !important;
+}
+
+.pad-all {
+    padding: 15px;
+}
+
+.pad-all-sm {
+    padding: 7px;
+}
+
+.pad-all-xs {
+    padding: 3px;
+}
+
+.pad-top {
+    padding-top: 15px;
+}
+
+.pad-top-sm {
+    padding-top: 7px;
+}
+
+.pad-btm {
+    padding-bottom: 15px;
+}
+
+.pad-btm-sm {
+    padding-bottom: 7px;
+}
+
+.pad-lft {
+    padding-left: 15px;
+}
+
+.pad-lft0sm {
+    padding-left: 7px;
+}
+
+.pad-rgt {
+    padding-right: 15px;
+}
+
+.pad-rgt-sm {
+    padding-right: 7px;
+}
+
+.pad-hor {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pad-hor-sm {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.pad-ver {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* CORES */
+.bg-blue {
+    background-color: #0c5690;
+    color: white;
+}
+
+/* Message Box */
+div.message-box-wrapper {
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.message-box-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+div.message-box-content {
+    margin-top: 12px;
+}
+
+div.message-box-wrapper.red {
+    background-color: #ffdcdd;
+    border-color: #e9b9bb;
+    color: #713a3c;
+}
+
+div.message-box-wrapper.red .message-box-title {
+    color: #8d4345;
+}
+
+div.message-box-wrapper.yellow {
+    background-color: #ffffe0;
+    border-color: #e1db8b;
+    color: #4d4d39;
+}
+
+div.message-box-wrapper.yellow .message-box-title {
+    color: #737357;
+}
+
+div.message-box-wrapper.blue {
+    background-color: #c2e1ee;
+    border-color: #8ec3d9;
+    color: #3d5058;
+}
+
+div.message-box-wrapper.blue .message-box-title {
+    color: #475d66;
+}
+
+div.message-box-wrapper.green {
+    background-color: #e1ffd9;
+    border-color: #badeb1;
+    color: #435b3d;
+}
+
+div.message-box-wrapper.green .message-box-title {
+    color: #526d4b;
+}
+
+/* Message Box */
+.message-box {
+    position: fixed;
+    right: 0px;
+    z-index: 999;
+}
+
+.messages {
+    padding: 25px;
+    background-color: rgba(240, 255, 240, 0.9);
+    color: #444;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid #888;
+    border-right: none;
+    max-width: 500px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.errors {
+    padding: 25px;
+    background-color: rgba(255, 240, 240, 0.9);
+    color: #56030d;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid #888;
+    border-right: none;
+    max-width: 500px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.logo-topo {
+    max-width: 300px;
+}
